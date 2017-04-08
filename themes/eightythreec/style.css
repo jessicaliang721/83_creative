@@ -893,3 +893,31 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/* JLP CUSTOM STYLES */
+
+.container-fluid:nth-child(odd) .col-md-7 {
+	float: right;
+}
+
+.container-fluid {
+	height: 100vh;
+}
+
+header {
+	position: absolute;
+	left: -9999px;
+}
+
+h1, h2 {
+	font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+	font-size: 7vw;
+	margin-top: 0;
+}
+
+body {
+	font-family: 'Quattrocento', serif;
+}

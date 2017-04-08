@@ -14,28 +14,43 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
 
-			<?php
-			while ( have_posts() ) : the_post();
+            <?php
+            while (have_posts()) :
+                the_post(); ?>
+                <div class="container-fluid text-center" style="background: url(<?php echo get_template_directory_uri() . '/img/section1.png' ?>) center / cover no-repeat fixed">
+                    <div class="container">
+                        <div class="col-sm-12">
+                            <div class="center-block">
+                                <?php the_content(); ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php endwhile; // End of the loop.
 
-				the_content();
-
-			endwhile; // End of the loop.
-			?>
-			<div>
-				<?php
-				echo get_post_meta($post->ID, 'Reason1', true);
-				?>
-			</div>
-			<div>
-				<?php
-				echo get_post_meta($post->ID, 'Reason2', true);
-				?>
-			</div>
-		</main><!-- #main -->
-	</div><!-- #primary -->
+            $bigText = get_post_meta($post->ID, 'Big Text', false);
+            $iAm = get_post_meta($post->ID, 'I am', true);
+            $paragraph = get_post_meta($post->ID, 'Paragraph', false);
+            for ($x = 0; $x < count($bigText); $x++) { ?>
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="col-sm-12 col-md-7">
+							<span>
+								<?php echo $iAm; ?>
+							</span>
+                            <h2><?php echo $bigText[$x]; ?></h2>
+                            <p>
+                                <?php echo $paragraph[$x]; ?>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </main><!-- #main -->
+    </div><!-- #primary -->
 
 <?php
 get_footer();
