@@ -15,9 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'eightythreec' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'eightythreec' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'eightythreec' ), 'eightythreec', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
+			<?php printf( esc_html__( 'Developed with <3 by Jessica Pei' )); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

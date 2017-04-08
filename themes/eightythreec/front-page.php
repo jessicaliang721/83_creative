@@ -20,11 +20,20 @@ get_header(); ?>
 			<?php
 			while ( have_posts() ) : the_post();
 
-				get_template_part( 'template-parts/content', 'page' );
+				the_content();
 
 			endwhile; // End of the loop.
 			?>
-
+			<div>
+				<?php
+				echo get_post_meta($post->ID, 'Reason1', true);
+				?>
+			</div>
+			<div>
+				<?php
+				echo get_post_meta($post->ID, 'Reason2', true);
+				?>
+			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
