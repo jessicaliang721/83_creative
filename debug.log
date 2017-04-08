@@ -1,0 +1,9 @@
+[08-Apr-2017 00:58:44 UTC] PHP Fatal error:  Uncaught phpmailerException: Invalid address:  (setFrom) wordpress@83_creative.dev in /srv/www/83_creative/htdocs/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /srv/www/83_creative/htdocs/wp-includes/pluggable.php(352): PHPMailer->setFrom('wordpress@83_cr...', 'WordPress', false)
+#1 /srv/www/83_creative/htdocs/wp-admin/includes/upgrade.php(395): wp_mail('jessicapei93@gm...', 'New WordPress S...', 'Your new WordPr...')
+#2 /srv/www/83_creative/htdocs/wp-admin/includes/upgrade.php(98): wp_new_blog_notification('83 Creative', 'http://83_creat...', 1, 'The password yo...')
+#3 /srv/www/83_creative/htdocs/wp-admin/install.php(375): wp_install('83 Creative', 'jessicapei', 'jessicapei93@gm...', 0, '', 'password', 'en_US')
+#4 {main}
+  thrown in /srv/www/83_creative/htdocs/wp-includes/class-phpmailer.php on line 1023
+[08-Apr-2017 00:59:09 UTC] PHP Notice: This XML document is invalid, likely due to invalid characters. XML error: Undeclared entity error at line 11, column 24 in /srv/www/83_creative/htdocs/wp-includes/class-simplepie.php on line 1421
