@@ -10,3 +10,35 @@ Stack trace:
 [08-Apr-2017 14:37:06 UTC] PHP Notice:  Array to string conversion in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 29
 [08-Apr-2017 14:37:06 UTC] PHP Notice:  Array to string conversion in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 34
 [08-Apr-2017 14:50:17 UTC] PHP Notice:  Undefined offset: 4 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 35
+[09-Apr-2017 14:56:37 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 14:56:37 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 14:56:37 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 14:57:12 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 14:57:12 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 14:57:12 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 15:00:53 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 15:00:53 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 15:00:53 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 15:05:30 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 15:05:30 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 15:05:30 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 15:05:56 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 15:05:56 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 15:05:56 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:17:29 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:17:29 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:17:29 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:29:46 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:29:46 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:29:50 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:29:50 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:32:01 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:32:01 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:51:01 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:51:01 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:51:50 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:51:50 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:51:56 UTC] PHP Notice:  Undefined offset: 2 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 21:51:56 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 22:37:18 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[09-Apr-2017 22:39:14 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39

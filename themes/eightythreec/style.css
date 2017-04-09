@@ -281,9 +281,9 @@ h6 {
 	clear: both;
 }
 
-p {
+/*p {
 	margin-bottom: 1.5em;
-}
+}*/
 
 dfn,
 cite,
@@ -896,10 +896,6 @@ object {
 
 /* JLP CUSTOM STYLES */
 
-.container-fluid:nth-child(odd) .col-md-7 {
-	float: right;
-}
-
 .container-fluid {
 	height: 100vh;
 }
@@ -909,15 +905,79 @@ header {
 	left: -9999px;
 }
 
+body {
+	color: #3d3d3e;
+}
+
 h1, h2 {
 	font-family: 'Oswald', sans-serif;
 }
 
 h2 {
-	font-size: 7vw;
+	font-size: 10vw;
 	margin-top: 0;
+	color: #fff;
+}
+
+span, p {
+	color: #fff;
+}
+
+span {
+	font-size: 5vw;
 }
 
 body {
 	font-family: 'Quattrocento', serif;
+	font-size: 2rem;
+}
+
+.center-block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container, .col-sm-12 {
+	height: 100%;
+}
+
+.vert-center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.section-0 h2, .section-0 p {
+	color: inherit;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	span {
+		font-size: 3vw;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.container-fluid:nth-child(odd) .col-md-7 {
+		float: right;
+	}
+
+	h2 {
+		font-size: 7vw;
+	}
+	span {
+		font-size: 2.5vw;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
