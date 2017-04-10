@@ -20,7 +20,8 @@ get_header(); ?>
             <?php
             while (have_posts()) :
                 the_post(); ?>
-                <div class="container-fluid text-center" style="background: url(<?php echo get_template_directory_uri() . '/img/section1.png' ?>) center / cover no-repeat fixed">
+                <div class="container-fluid text-center"
+                     style="background-image: url(<?php echo get_template_directory_uri() . '/img/section1.png' ?>)">
                     <div class="container">
                         <div class="col-sm-12">
                             <div class="center-block">
@@ -36,7 +37,8 @@ get_header(); ?>
             $paragraph = get_post_meta($post->ID, 'Paragraph', false);
             $background = get_post_meta($post->ID, 'Background', false);
             for ($x = 0; $x < count($bigText); $x++) { ?>
-                <div class="container-fluid section-<?php echo $x;?>" style="background: url(<?php echo get_template_directory_uri() . '/img/' . $background[$x] ?>) center / cover no-repeat fixed">
+                <div class="container-fluid" id="section-<?php echo $x; ?>"
+                     style="background-image: url(<?php echo get_template_directory_uri() . '/img/' . $background[$x] ?>)">
                     <div class="container">
                         <div class="col-sm-12 col-md-7">
                             <div class="vert-center">
@@ -52,6 +54,15 @@ get_header(); ?>
                     </div>
                 </div>
             <?php } ?>
+            <div id="scroll-bullets">
+                <ul>
+            <?php for ($x = 0; $x < count($bigText); $x++) { ?>
+                        <li>
+                            <?php echo $bigText[$x]; ?>
+                        </li>
+            <?php } ?>
+                </ul>
+            </div>
         </main><!-- #main -->
     </div><!-- #primary -->
 
