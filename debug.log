@@ -42,3 +42,4 @@ Stack trace:
 [09-Apr-2017 21:51:56 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
 [09-Apr-2017 22:37:18 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
 [09-Apr-2017 22:39:14 UTC] PHP Notice:  Undefined offset: 3 in /srv/www/83_creative/htdocs/wp-content/themes/eightythreec/front-page.php on line 39
+[10-Apr-2017 23:04:14 UTC] PHP Notice: This XML document is invalid, likely due to invalid characters. XML error: Undeclared entity error at line 11, column 24 in /srv/www/83_creative/htdocs/wp-includes/class-simplepie.php on line 1421

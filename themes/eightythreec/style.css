@@ -928,7 +928,7 @@ span, p {
 	color: #fff;
 }
 
-span {
+.container-fluid span {
 	font-size: 5vw;
 }
 
@@ -984,6 +984,29 @@ body {
 	padding: 0;
 }
 
+#scroll-bullets a .text {
+	position: absolute;
+	top: 4px;
+	right: -10px;
+	display: block;
+	visibility: hidden;
+}
+
+#scroll-bullets .circle {
+	position: relative;
+	display: block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	border: 2px solid white;
+	background: transparent;
+	margin: 8px 0;
+}
+
+#scroll-bullets .active .circle {
+	background: #fff;	
+}
+
 #scroll-bullets li {
 	display: inline-block;
 }
@@ -1003,12 +1026,9 @@ body {
 
 	#scroll-bullets {
 		top: 50%;
-		-webkit-transform: translate(0, -50%);
-		-ms-transform: translate(0, -50%);
-		transform: translate(0, -50%);
 		right: 0;
-		z-index: 8;
-		bottom: inherit;
+		width: auto;
+		padding-right: 20px;
 	}
 	#scroll-bullets li {
 		display: block;
